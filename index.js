@@ -42,4 +42,5 @@ function removeLastKitten() {
   
 function removeFirstKitten() {
   const newKittens = kittens.slice(1)
+  return newKittens
 }
