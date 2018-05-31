@@ -9,12 +9,12 @@ function kittens () {
    return kittens
 }
 
-function destructivelyPrependKitten (name) {
+function destructivelyPrependKitten(name) {
   kittens.unshift(name)
   return kittens
 }
 
-function destructivelyRemoveLastKitten () {
+function destructivelyRemoveLastKitten() {
   kittens.pop()
   return
 }
