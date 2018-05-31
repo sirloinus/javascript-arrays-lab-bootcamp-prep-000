@@ -30,3 +30,8 @@ function appendKitten(name) {
   return newKittens
 }
 
+function prependKitten(name) {
+  const newKittens = [name, ...kittens]
+  return newKittens
+}
+
