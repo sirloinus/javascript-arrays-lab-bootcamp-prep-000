@@ -16,5 +16,16 @@ function destructivelyPrependKitten(name) {
 
 function destructivelyRemoveLastKitten() {
   kittens.pop()
+  return kittens
 }
 
+
+function 
+
+describe('destructivelyRemoveFirstKitten()', function() {
+    it('removes the First kitten from the kittens array', function() {
+      destructivelyRemoveFirstKitten()
+
+      expect(window.kittens).toEqual(["Otis", "Garfield"])
+    })
+  })
